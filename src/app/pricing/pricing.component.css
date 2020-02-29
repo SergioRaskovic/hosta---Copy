@@ -1,0 +1,82 @@
+.container{
+    width: 100%;
+    
+    padding: 20px;
+  
+    margin-left:auto;
+    margin-right: auto;
+    
+    
+}
+
+
+.income_text{
+
+    color: #46A682;
+    font-weight: bold; 
+     text-align: center; 
+     letter-spacing: 0.01em; 
+    
+    font-size: 36px;
+      margin-top: 5%;
+      width:90%; 
+      margin-left: 3%;
+      font-family: Noto Sans,sans-serif;
+      
+      
+             
+}
+
+
+.small_text{
+    font-size: 12.6px;
+    text-align: left; 
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+    
+}
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+.btn-round-lg{
+    border-radius: 31.5px;
+    outline: black;
+    }
+   
+  
+ 
+    .btn{
+        background: white; color: #223f80; width: 450px; font-size: 28 px ; height: 70px; margin-top: 7%;  margin-left: 30%;
+    }
+
+    .button_text{
+
+        color: #223f80;
+        
+         text-align: center; 
+         letter-spacing: 0.01em; 
+          
+        font-size: 24px;
+          
+          width:100%; 
+          
+          font-family: Noto Sans,sans-serif;
+          
+          
+                 
+    }
+
+
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}

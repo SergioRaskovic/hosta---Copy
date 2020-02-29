@@ -1,0 +1,128 @@
+<div class="hide_me">
+
+<div class="container">
+<div class="row" style="width: 100%; ">
+
+    
+
+    <div class="col">
+        <a [routerLink]="['/']">
+    <img class="logo" src="../../assets/images/logo.png" alt="logo" style="margin-left: 10%; margin-top: 1%;">
+
+</a>
+
+</div>
+
+
+ <div class="col" style="margin-left: 40%; margin-top: 0%; ">
+    <div class="bs-example" style="font-size: 14px; color: black;">     
+        <div class="dropdown" style="font-size: 14px; color: black;">      
+            <a  class="dropdown-toggle"  data-toggle="dropdown"  (click)="switchLanguage ('en')" style="width:120%; color: black;"><img class="logo" src="../../assets/images/uk.png" alt="logo" style="margin-left: 10%; margin-top: 1%; width: 30%;"></a>
+            <div class="dropdown-menu"  style=" width:30%;color: black;">     
+                <a   style="margin-top: 10%; color: black;"  (click)="switchLanguage ('hr')"> <img class="logo" src="../../assets/images/cro.png" alt="logo" style="margin-left: 10%; margin-top: 1%; width: 30%;"></a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+    <div class="col">
+    <div style="margin-left: 15%; margin-top: 3%;"><a href="#">info@hosta.hr</a></div>
+    
+    </div>
+
+    <div class="col">
+        <div style="margin-left: 15%; margin-top: 3%; width: 100%;"><a href="#">+385 (0)51 272 240</a></div>
+    </div>
+
+ <div class="col">
+   <a href="https://www.facebook.com/infohosta.hr/?modal=composer&notif_id=1576079886226247&notif_t=aymt_upsell_tip&ref=notif"> <img class="logo" src="../../assets/images/facebook.png" alt="logo" style="margin-left: 15%; margin-top: 1%; width: 25%;"></a>
+</div>
+
+</div>
+
+<div class="row" style="width: 100%; ">
+    <div class="col" style="margin-left: 60%; font-size: 12px; color: black; font-weight: bold;">
+    
+        <div class="bs-example" style="font-size: 12px; color: black; font-weight: bold;">
+            <div class="dropdown" >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: black;">{{ 'SERVICES' | translate: '' }}</a>
+                <div class="dropdown-menu"  style="font-size: 14px; color: black;">     
+                    <a  [routerLink]="['/booking']" class="dropdown-item">BOOKING</a>
+                    <a [routerLink]="['/cleaning']" class="dropdown-item">{{ 'CLEANING AND LINEN' | translate: '' }} </a>
+                    <a  [routerLink]="['/reception']" class="dropdown-item">{{ 'Reception1' | translate: ''}}</a>
+                    <a  [routerLink]="['/handyman']" class="dropdown-item">{{ 'HANDYMAN1' | translate: '' }}</a>
+                    <a [routerLink]="['/adaptation']" class="dropdown-item " style="margin-top: 5%;">{{ 'ADAPTATION1' | translate: '' }}</a>
+                    <a [routerLink]="['/classification']" class="dropdown-item">{{ 'CLASSIFICATION1' | translate: '' }}</a>
+                  
+                    
+                </div>
+            </div>
+        </div>
+   
+    </div>
+
+    <div class="col"  style="font-size: 12px; color: black; font-weight: bold;" >
+        <a [routerLink]="['/pricing']"  style="font-size: 12px; color: black; font-weight: bold; ">
+        {{ 'Title' | translate: '' }}
+    </a>
+    
+    </div>
+    <div class="col"  style="font-size: 12px; color: black; font-weight: bold; ">
+        
+        <a [routerLink]="['/about']"  style="font-size: 12px; color: black; font-weight: bold; ">
+                {{ 'About us' | translate: '' }}
+    </a>
+    </div>
+    
+    <div class="col"  style="font-size: 12px; color: black; font-weight: bold; ; ">
+        <a [routerLink]="['/faq']" style="font-size: 12px; color: black; font-weight: bold; ">
+        {{ 'FAQ' | translate: '' }}
+        </a>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+<div class="show_me">
+    <div class="mobile-container">
+
+    <div class="row" style="width: 100%; margin-top: 2%;">
+    <div class="col"  >
+        <div class="bs-example" style="font-size: 14px; color: black;">     
+            <div class="dropdown" style="font-size: 14px; color: black;">      
+                <a  class="dropdown-toggle"  data-toggle="dropdown"  (click)="switchLanguage ('en')" style="width:120%; color: black;"><img class="logo" src="../../assets/images/uk.png" alt="logo" style="margin-left: 0%; margin-top: 1%; width: 10%;"></a>
+                <div class="dropdown-menu"  style=" width:30%;color: black;">     
+                    <a   style="margin-top: 10%; color: black;"  (click)="switchLanguage ('hr')"> <img class="logo" src="../../assets/images/cro.png" alt="logo" style="margin-left: 10%; margin-top: 1%; width: 30%;"></a>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    <div class="topnav" style="margin-top: 5%;">
+        <a [routerLink]="['/']"><img class="logo" src="../../assets/images/logo.png" alt="logo" style="width: 40%;" ></a>
+        <div id="myLinks">
+            <a (click)="mobileToggle()" [routerLink]="['/booking']" class="dropdown-item">BOOKING</a>
+            <a (click)="mobileToggle()"[routerLink]="['/cleaning']" class="dropdown-item">{{ 'CLEANING AND LINEN' | translate: '' }} </a>
+            <a (click)="mobileToggle()" [routerLink]="['/reception']" class="dropdown-item">{{ 'Reception1' | translate: ''}}</a>
+            <a (click)="mobileToggle()"  [routerLink]="['/handyman']" class="dropdown-item">{{ 'HANDYMAN1' | translate: '' }}</a>
+            <a (click)="mobileToggle()" [routerLink]="['/adaptation']" class="dropdown-item ">{{ 'ADAPTATION1' | translate: '' }}</a>
+            <a (click)="mobileToggle()" [routerLink]="['/classification']" class="dropdown-item">{{ 'CLASSIFICATION1' | translate: '' }}</a>
+            <a (click)="mobileToggle()" [routerLink]="['/pricing']" class="dropdown-item">{{ 'Title' | translate: '' }}</a>
+            <a (click)="mobileToggle()" [routerLink]="['/about']" class="dropdown-item">{{ 'About us' | translate: '' }}</a>
+            <a (click)="mobileToggle()"[routerLink]="['/faq']" class="dropdown-item">{{ 'FAQ' | translate: '' }}</a>
+
+        </div>
+        <a href="javascript:void(0);" class="icon"(click)="mobileToggle()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+
+
+
+</div>
+</div>
+<router-outlet></router-outlet>

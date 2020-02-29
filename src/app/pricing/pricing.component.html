@@ -1,0 +1,139 @@
+<div class="container">
+
+    <div class="income_text" >
+        {{ 'Calculate price' | translate: ''}}
+              
+    </div>
+
+    <div class="income_text " style="margin-top: 5% ; text-align: left; font-size: 24px; margin-left: 4%;" >
+        {{ 'Apartment parameters' | translate: ''}}
+              
+    </div>
+
+
+    <div class="row" style="margin-top: 3%;">
+        <div class="col">
+            <div class="small_text"style="margin-left: 15%;">
+                {{ 'Volume of booking, annually (€)' | translate: ''}}
+
+            </div>
+            <div class="icon-addon addon-lg" style="width: 70%; margin-top: 5%; margin-left: 15%;">
+                <input type="text" placeholder="EUR" class="form-control" id="EUR">
+                
+            </div>
+            
+        </div>
+        <div class="col">
+            <div class="small_text">
+                {{ 'Square of apartment' | translate: ''}}
+
+            </div>
+            <div class="icon-addon addon-lg" style="width: 70%; margin-top: 5%; margin-left: 5%;">
+                <input type="text" placeholder="m2" class="form-control" id="m2">
+            </div>
+            
+        </div>
+        <div class="col">
+            <div class="small_text">
+                {{ 'Average number of checkins' | translate: ''}}
+
+            </div>
+            <div class="icon-addon addon-lg" style="width: 70%; margin-top: 5%; margin-left: 5%;">
+                <input  type="text" placeholder="0" class="form-control" id="0">
+                
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="row" style="margin-top: 5%;">
+        <div class="col">
+            <div class="small_text" style="margin-left: 15%;">
+                {{ 'Number of beds' | translate: ''}}
+
+            </div>
+            <div class="small_text"style="margin-left: 15%; font-weight: bold;">
+                {{ 'Double' | translate: ''}}
+
+            </div>
+            <div class="icon-addon addon-lg" style="width: 80%; margin-top: 5%; margin-left: 15%;">
+                <input type="text" placeholder="0" class="form-control" id="0">
+                
+            </div>
+            
+        </div>
+        <div class="col">
+            <div class="small_text" >
+                {{ 'Number of beds' | translate: ''}}
+
+            </div>
+            <div class="small_text" style=" font-weight: bold;">
+                {{ 'Single' | translate: ''}}
+
+            </div>
+            <div class="icon-addon addon-lg" style="width: 80%; margin-top: 5%; margin-left: 5%;">
+                <input type="text" placeholder="0" class="form-control" id="0">
+            </div>
+            
+        </div>
+        <div class="col"style="margin-top:0%; margin-left:5%">
+            
+            <div class="small_text">
+                {{ 'Types' | translate: ''}}
+
+            </div>
+
+            <div class="row"style="margin-top:10%; margin-left:0%">
+                <div class="col">
+                    <div class="small_text"style="margin-top:0%; margin-left:-5%; font-weight: bold;">
+                        {{ 'Villa' | translate: ''}}
+        
+                    </div>
+                    <input style="margin-top:30%; " type="radio" name="type" value="Villa"> 
+                 </div>
+                 <div class="col">
+                    <div class="small_text" style="margin-top:0%; margin-left:-25%; font-weight: bold;">
+                        {{ 'Apartment' | translate: ''}}
+        
+                    </div>
+                    <input style="margin-top:30%;" type="radio" name="type" value="Apartment"> 
+                 </div>
+                 <div class="col">
+                    <div class="small_text" style="margin-top:0%; margin-left:-25%; font-weight: bold;">
+                        {{ 'Studio-room' | translate: ''}}
+        
+                    </div>
+                    <input  style="margin-top:30%; " type="radio" name="type" value="Studio"> 
+                 </div>
+                     
+                </div>
+         
+        </div>
+       
+
+
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="income_text "style="margin-top: 15% ; text-align: left; font-size: 24px; margin-left: 10%;"  >
+                {{ 'Price forecast :' | translate: ''}}
+                      
+            </div>
+
+            <div class="price" style="font-size:30px; font-weight: bold ; margin-left: 25%;">
+                -
+            </div>
+        </div>
+        <div class="col">
+            <div class="income_text " style="margin-top: 15% ; text-align: left; font-size: 24px; margin-left: 10%;"  >
+                {{ 'Services:' | translate: ''}} 
+            </div>
+ 
+        </div>
+    </div>
+
+   
+</div>
